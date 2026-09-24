@@ -1,0 +1,14 @@
+{
+  "name": "docs-generator-agent",
+  "owner": {
+    "name": "Timedoor Backend"
+  },
+  "plugins": [
+    {
+      "name": "docs-generator-agent",
+      "source": "./",
+      "description": "Automated project documentation generator",
+      "version": "0.1.0"
+    }
+  ]
+}
