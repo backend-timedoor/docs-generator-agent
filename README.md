@@ -27,9 +27,10 @@ claude --plugin-dir /absolute/path/to/docs-generator-agent
 
 ### Installed marketplace plugin
 
-If the plugin is published in a marketplace:
+Install it from the Claude Code interactive prompt:
 
 ```text
+/plugin marketplace add backend-timedoor/docs-generator-agent 
 /plugin install docs-generator-agent@docs-generator-agent
 ```
 
@@ -43,7 +44,7 @@ Enable it in a project with `.claude/settings.json` when required:
 }
 ```
 
-The repository currently contains the plugin manifest, agents, and commands. A marketplace manifest is required before publishing to a marketplace.
+The repository currently contains the plugin manifest, agents, and commands. 
 
 ## Permissions
 
